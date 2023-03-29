@@ -65,7 +65,7 @@ function reverse(param) {
     console.log(a)
 }
 
-reverse("Pero");
+reverse("Pe");
 //4 (4 BODA)
 //Napisi funkciju koja vraca najkraci kljuc u danom objektu
 const somePeople = {
@@ -76,18 +76,8 @@ const somePeople = {
     Martin: "Fowler",
     Erich: "Gamma"
 }
-function najkraci(somePeople) {
-    let min = 100;
-    let najkraci;
-    for (let i = 0; i < somePeople.length; i++) {
-        if (somePeople[i] < min) {
-            somePeople[i] = najkraci;
-        }
-    }
-    console.log(najkraci);
-}
-najkraci(somePeople);
-console.log(somePeople);
+console.log(somePeople)
+
 //INPUT: somePeople
 //OUTPUT: "Ada"
 
@@ -102,7 +92,7 @@ console.log(somePeople);
 //OUTPUT: [4, 16, 36, 0, 1]
 function a() {
 
-}
+};
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve dogadaje koji su se dogodili prije od vrijednosti iz ulaznog parametra
@@ -130,3 +120,10 @@ const someEvents = [
 ];
 //INPUT: (someEvents, 1992)
 //OUTPUT: [{eventName: "Izasao je Python", eventYear: 1991}, {eventName: "Izasao je C++", eventYear: 1985}]
+function se(somePeople, godina) {
+    for (let i = 0; i < someEvents.size; i++) {
+        console.log[i];
+    }
+}
+
+se(somePeople, 1992);
