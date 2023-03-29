@@ -87,7 +87,7 @@ function najkraci(somePeople) {
     console.log(najkraci);
 }
 najkraci(somePeople);
-console.log(somePeople.size);
+console.log(somePeople);
 //INPUT: somePeople
 //OUTPUT: "Ada"
 
@@ -100,6 +100,9 @@ console.log(somePeople.size);
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
+function a() {
+
+}
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve dogadaje koji su se dogodili prije od vrijednosti iz ulaznog parametra
