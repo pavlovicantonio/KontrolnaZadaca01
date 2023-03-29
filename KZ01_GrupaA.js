@@ -59,8 +59,8 @@ dani(8);
 function reverse(param) {
     let a = []
     let i = 0;
-    for (let j = param.length - 1; j > i; j--) {
-        a.push[j];
+    for (let j = param.length; j > 0; j--) {
+        a.push[param[j]];
     }
     console.log(a)
 }
@@ -90,9 +90,11 @@ console.log(somePeople)
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
-function a() {
+a => {
+    console.log("Z");
+}
 
-};
+a();
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve dogadaje koji su se dogodili prije od vrijednosti iz ulaznog parametra
@@ -126,4 +128,3 @@ function se(somePeople, godina) {
     }
 }
 
-se(somePeople, 1992);
