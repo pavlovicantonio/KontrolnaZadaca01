@@ -59,7 +59,7 @@ dani(8);
 function reverse(param) {
     let a = []
     let i = 0;
-    for (let j = param.length - 1; j <= param.length; j--) {
+    for (let j = param.length - 1; j > i; j--) {
         a.push[j];
     }
     console.log(a)
@@ -76,6 +76,18 @@ const somePeople = {
     Martin: "Fowler",
     Erich: "Gamma"
 }
+function najkraci(somePeople) {
+    let min = 100;
+    let najkraci;
+    for (let i = 0; i < somePeople.length; i++) {
+        if (somePeople[i] < min) {
+            somePeople[i] = najkraci;
+        }
+    }
+    console.log(najkraci);
+}
+najkraci(somePeople);
+console.log(somePeople.size);
 //INPUT: somePeople
 //OUTPUT: "Ada"
 
